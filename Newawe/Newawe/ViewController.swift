@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL(string: "http://newawelive.herohamp.xyz")
+        let url = NSURL(string: "http://newawelive.com")
         let request = NSURLRequest(URL: url!)
         self.newAweWebView.loadRequest(request)
     }
